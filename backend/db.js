@@ -1,3 +1,4 @@
+const Pool = require('pg').Pool;
 require("dotenv").config({path:'./config.txt'}) ;
 
 const pool = new Pool({
