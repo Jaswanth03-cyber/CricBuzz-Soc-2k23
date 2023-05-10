@@ -1,5 +1,5 @@
 const Pool = require('pg').Pool;
-require("dotenv").config({path:'./config.txt'}) ;
+require("dotenv").config({path: __dirname + '/project.env'}) ;
 
 const pool = new Pool({
     user: process.env.USER,
